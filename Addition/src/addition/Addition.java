@@ -29,7 +29,7 @@ public class Addition {
         int sum=0;
         sum+=NUM_1+NUM_2;
         //System.out.println("Answer :"+sum);
-        return sum;
+        //return sum;
     }
     
 }
