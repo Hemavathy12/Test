@@ -11,7 +11,7 @@ import java.util.Scanner;
  *
  * @author I20869
  */
-public class Addition {
+public class Add {
 
     /**
      * @param args the command line arguments
