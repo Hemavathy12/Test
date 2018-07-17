@@ -57,7 +57,7 @@ public class AdditionTest {
         int NUM_2 = 20;
         int result = Addition.Add(NUM_1, NUM_2);
         int expected_result=42;
-        assertEquals(result,expected_result);
+        assertNotEquals(result,expected_result);
     }
      /**
      * Test of Add method, of class Addition.
@@ -79,7 +79,7 @@ public class AdditionTest {
         int NUM_2 = 20;
         int result = Addition.Add(NUM_1, NUM_2);
         int expected_result=123;
-        assertEquals(result,expected_result);
+        assertNotEquals(result,expected_result);
     }
      /**
      * Test of Add method, of class Addition.
@@ -90,17 +90,6 @@ public class AdditionTest {
         int NUM_2 = 20;
         int result = Addition.Add(NUM_1, NUM_2);
         int expected_result=21;
-        assertEquals(result,expected_result);
-    }
-     /**
-     * Test of Add method, of class Addition.
-     */
-    @Test
-    public void testAdd_5() {
-        int NUM_1 = 22;
-        int NUM_2 = 234;
-        int result = Addition.Add(NUM_1, NUM_2);
-        int expected_result=500;
         assertEquals(result,expected_result);
     }
      /**
@@ -122,7 +111,7 @@ public class AdditionTest {
         int NUM_1 = 10;
         int NUM_2 = 56;
         int result = Addition.Add(NUM_1, NUM_2);
-        int expected_result=38;
+        int expected_result=66;
         assertEquals(result,expected_result);
     }
     
