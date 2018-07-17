@@ -24,12 +24,12 @@ public class Addition {
         int num_2=scanner.nextInt();
         Add(num_1,num_2);
     }
-    publicstatic int Add(int NUM_1,int NUM_2)
+    public static int Add(int NUM_1,int NUM_2)
     {
         int sum=0;
         sum+=NUM_1+NUM_2;
         //System.out.println("Answer :"+sum);
-        //return sum;
+        return sum;
     }
     
 }
